@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap');*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+    max-width: 100vw;
+    font-family: 'Raleway';
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url('./img/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    padding-top: 60px;
+    border-bottom: 1px solid #33A8DB80;
+    width: 100%;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.imagem-logo img{
+    height: 214px;
+    width: 300px;
+    left: 131px;
+}
+
+.imagem-logo{
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 27px 10px;
+    width: 268px;
+    left: 131px;
+}
+
+.titulo-header h1{
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 40px;
+    line-height: 47px;
+    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-align: center;
+    margin-top: 16px;
+
+}
+
+.subtitulo-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.subtitulo-header p{
+    width: 510px;
+    height: 46px;
+    font-weight: 400;
+    color: white;
+    font-size: 20px;
+    line-height: 23.48px;
+}
+
+.subtitulo-header button{
+    margin-top: 24px;
+    text-transform: uppercase;
+    padding: 19px 46px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 19px;
+    background-color: transparent;
+    color: #31A8DD;
+    border-image: linear-gradient(#3BA1CD, #1572B7);
+    border-image-slice: 10;
+    letter-spacing: 0.21em;
+    cursor: pointer;
+
+}
+
+#frame2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+}
+
+#frame2 h2{
+    text-transform: uppercase;
+    color: #31A8DD;
+    margin-top: 118px;
+    font-weight: 700;
+    letter-spacing: 0.19em;
+}
+
+#frame2 p{
+    color: white;
+    width: 792px;
+    text-align: center;
+    margin: 24px 0;
+}
+
+#modulos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 60px;
+    border-bottom: 1px solid #33A8DB80;
+    width: 100%;
+
+}
+
+#modulos span{
+    border-radius: 57px;
+    border: 1px solid #33A8DB;
+    width: 535px;
+    height: 51px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-bottom: 24px;
+
+}
+
+.modulo{
+    color: #33A8DB;
+    padding-right: 5px;
+}
+
+#transforme{
+    height: 560px;
+    width: 100%;
+    border-bottom: 1px solid #33A8DB80;
+    background-image: url('./img/woman-code.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+#transforme h1{
+    height: 141px;
+    width: 244px;
+    font-size: 40px;
+    line-height: 46.96px;
+    color:white;
+    font-weight: 900;
+    text-shadow: 3px 2px 0px #33A8DB;
+    margin-left: 198px;
+}
+
+#evolua{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid #33A8DB80;
+    width: 100%;
+
+}
+
+#evolua h2{
+    color: #33A8DB;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-transform: uppercase;
+    letter-spacing: 0.19em;
+    width: 900px;
+    text-align: center;
+    margin-top: 60px
+}
+
+#evolua img{
+    width: 659px;
+    height: 429px;
+    margin-top: 32px;
+}
+
+#evolua p{
+    color: white;
+    height: 76px;
+    width: 792px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin: 40px 0 91px 0;
+    line-height: 18.78px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+}
+footer p{
+    color: white;
+    font-size: 16px;
+    margin: 15px 0 38px 0   ;
+}
+footer img{
+    width: 310px;
+    margin-top: 59px;
+}
+a{
+    text-decoration: none;
+    color: #33A8DB;
+}
